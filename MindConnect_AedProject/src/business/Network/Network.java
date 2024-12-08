@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author tejageetla
+ * @author rakshakmoorthy
  */
 public class Network {
 
