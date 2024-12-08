@@ -17,7 +17,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author shrivatsanaragund
+ * @author rakshakmoorthy
  */
 public class DoctorPrescribeMedicinesJPanel extends javax.swing.JPanel {
 
