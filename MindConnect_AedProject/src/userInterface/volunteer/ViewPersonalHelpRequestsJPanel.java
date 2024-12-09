@@ -117,9 +117,10 @@ public class ViewPersonalHelpRequestsJPanel extends javax.swing.JPanel {
         accountTxtAreaField = new javax.swing.JTextArea();
         viewHelpSeekerBtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 255, 204));
+        setBackground(new java.awt.Color(1, 33, 46));
 
         manageEnt.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        manageEnt.setForeground(new java.awt.Color(255, 255, 255));
         manageEnt.setText("Personal Help Requests");
 
         helpRequestListTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -140,6 +141,7 @@ public class ViewPersonalHelpRequestsJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(helpRequestListTable);
 
+        processHelpRquestJButton.setBackground(new java.awt.Color(50, 190, 162));
         processHelpRquestJButton.setText("Process");
         processHelpRquestJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -147,6 +149,7 @@ public class ViewPersonalHelpRequestsJPanel extends javax.swing.JPanel {
             }
         });
 
+        refreshJButton.setBackground(new java.awt.Color(50, 190, 162));
         refreshJButton.setText("Refresh");
         refreshJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,6 +157,7 @@ public class ViewPersonalHelpRequestsJPanel extends javax.swing.JPanel {
             }
         });
 
+        assignJButton.setBackground(new java.awt.Color(50, 190, 162));
         assignJButton.setText("Assign to me");
         assignJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -161,6 +165,7 @@ public class ViewPersonalHelpRequestsJPanel extends javax.swing.JPanel {
             }
         });
 
+        backJButton.setBackground(new java.awt.Color(17, 180, 205));
         backJButton.setText("<< Back");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -172,6 +177,7 @@ public class ViewPersonalHelpRequestsJPanel extends javax.swing.JPanel {
         accountTxtAreaField.setRows(5);
         jScrollPane2.setViewportView(accountTxtAreaField);
 
+        viewHelpSeekerBtn.setBackground(new java.awt.Color(50, 190, 162));
         viewHelpSeekerBtn.setText("View Requestor Profile");
         viewHelpSeekerBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

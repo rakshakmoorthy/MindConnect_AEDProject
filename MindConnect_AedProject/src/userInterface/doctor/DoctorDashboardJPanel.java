@@ -13,7 +13,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author rakshakmoorthy
+ * @author shrivatsanaragund
  */
 public class DoctorDashboardJPanel extends javax.swing.JPanel {
 
@@ -54,26 +54,27 @@ public class DoctorDashboardJPanel extends javax.swing.JPanel {
         txtDrName = new javax.swing.JTextField();
         btnProfile = new javax.swing.JButton();
         btnAppointments = new javax.swing.JButton();
-        btnPatientsHistory = new javax.swing.JButton();
         btnBack = new javax.swing.JButton();
 
-        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel1.setBackground(new java.awt.Color(1, 33, 46));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Helvetica Neue", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Tufts Medical Center");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 800, -1));
 
         jLabel2.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(50, 192, 160));
         jLabel2.setText("Hello,");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 79, -1, 42));
 
         txtDrName.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         jPanel1.add(txtDrName, new org.netbeans.lib.awtextra.AbsoluteConstraints(108, 81, 194, -1));
 
-        btnProfile.setBackground(new java.awt.Color(255, 153, 204));
+        btnProfile.setBackground(new java.awt.Color(50, 192, 160));
         btnProfile.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
         btnProfile.setText("My Profile");
         btnProfile.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -84,7 +85,7 @@ public class DoctorDashboardJPanel extends javax.swing.JPanel {
         });
         jPanel1.add(btnProfile, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 178, 192, 64));
 
-        btnAppointments.setBackground(new java.awt.Color(255, 153, 204));
+        btnAppointments.setBackground(new java.awt.Color(50, 192, 160));
         btnAppointments.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
         btnAppointments.setText("Appointments");
         btnAppointments.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -95,13 +96,7 @@ public class DoctorDashboardJPanel extends javax.swing.JPanel {
         });
         jPanel1.add(btnAppointments, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 282, 192, 64));
 
-        btnPatientsHistory.setBackground(new java.awt.Color(255, 153, 204));
-        btnPatientsHistory.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
-        btnPatientsHistory.setText("Patients History");
-        btnPatientsHistory.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel1.add(btnPatientsHistory, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 379, 192, 64));
-
-        btnBack.setBackground(new java.awt.Color(102, 102, 255));
+        btnBack.setBackground(new java.awt.Color(17, 180, 205));
         btnBack.setText("<Back");
         btnBack.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnBack.addActionListener(new java.awt.event.ActionListener() {
@@ -150,7 +145,6 @@ public class DoctorDashboardJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAppointments;
     private javax.swing.JButton btnBack;
-    private javax.swing.JButton btnPatientsHistory;
     private javax.swing.JButton btnProfile;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;

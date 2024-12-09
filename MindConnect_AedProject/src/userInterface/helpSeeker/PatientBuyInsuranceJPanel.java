@@ -19,7 +19,7 @@ import userInterface.Insurance.InsuranceClaimsJPanel;
 
 /**
  *
- * @author shrivatsanaragund
+ * @author manvith
  */
 public class PatientBuyInsuranceJPanel extends javax.swing.JPanel {
 
@@ -60,7 +60,10 @@ public class PatientBuyInsuranceJPanel extends javax.swing.JPanel {
         btnClaim = new javax.swing.JButton();
         backbtn = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(1, 33, 46));
+
         jLabel1.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("MAX Life Insurance");
 
         basic.setText("Basic");
@@ -97,6 +100,7 @@ public class PatientBuyInsuranceJPanel extends javax.swing.JPanel {
         ));
         jScrollPane1.setViewportView(tblIns);
 
+        btnBuy.setBackground(new java.awt.Color(50, 192, 160));
         btnBuy.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
         btnBuy.setText("Buy");
         btnBuy.addActionListener(new java.awt.event.ActionListener() {
@@ -118,6 +122,7 @@ public class PatientBuyInsuranceJPanel extends javax.swing.JPanel {
         ));
         jScrollPane2.setViewportView(tblBoughtInsurance);
 
+        btnClaim.setBackground(new java.awt.Color(50, 192, 160));
         btnClaim.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
         btnClaim.setText("Claim Insurance");
         btnClaim.addActionListener(new java.awt.event.ActionListener() {
@@ -126,6 +131,7 @@ public class PatientBuyInsuranceJPanel extends javax.swing.JPanel {
             }
         });
 
+        backbtn.setBackground(new java.awt.Color(17, 180, 205));
         backbtn.setText("<<Back");
         backbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

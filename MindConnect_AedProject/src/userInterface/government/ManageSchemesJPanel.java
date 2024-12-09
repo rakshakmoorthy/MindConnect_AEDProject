@@ -16,14 +16,14 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author sameersdeshpande
+ * @author rakshakmoorthy
  */
 public class ManageSchemesJPanel extends javax.swing.JPanel {
 
     /**
      * Creates new form ManageSchemesJPanel
      */
-         private JPanel userProcessContainer;
+    private JPanel userProcessContainer;
     private UserAccount userAccount; 
     private EcoSystem ecoSystem;
     private Enterprise enterprise;
@@ -50,7 +50,7 @@ public class ManageSchemesJPanel extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         btnBack = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 153));
+        setBackground(new java.awt.Color(1, 33, 46));
         setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -70,6 +70,7 @@ public class ManageSchemesJPanel extends javax.swing.JPanel {
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 108, 728, 152));
 
         jLabel1.setFont(new java.awt.Font("Helvetica Neue", 0, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Governmental Schemes:");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 43, -1, -1));
 

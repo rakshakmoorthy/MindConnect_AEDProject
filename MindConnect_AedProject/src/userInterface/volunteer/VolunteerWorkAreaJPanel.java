@@ -22,7 +22,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author tejageetla
+ * @author manvith
  */
 public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
     
@@ -79,11 +79,13 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         viewAnonymousReqBtn = new javax.swing.JButton();
         viewVolProfileBtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 255, 204));
+        setBackground(new java.awt.Color(1, 33, 46));
 
         manageEnt.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        manageEnt.setForeground(new java.awt.Color(255, 255, 255));
         manageEnt.setText("NGO Work Area");
 
+        viewPersonalHelpRequestBtn.setBackground(new java.awt.Color(50, 192, 160));
         viewPersonalHelpRequestBtn.setText("View Personal Help Requests");
         viewPersonalHelpRequestBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -91,6 +93,7 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+        manageVolunteerProfileBtn.setBackground(new java.awt.Color(50, 192, 160));
         manageVolunteerProfileBtn.setText("Update Profile ");
         manageVolunteerProfileBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -98,6 +101,7 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+        viewTestimonialsBtn.setBackground(new java.awt.Color(50, 192, 160));
         viewTestimonialsBtn.setText("View Testimonials");
         viewTestimonialsBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -105,6 +109,7 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+        viewAnonymousReqBtn.setBackground(new java.awt.Color(50, 192, 160));
         viewAnonymousReqBtn.setText("View Anonymous Help Requests");
         viewAnonymousReqBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -112,6 +117,7 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+        viewVolProfileBtn.setBackground(new java.awt.Color(50, 192, 160));
         viewVolProfileBtn.setText("View Profile");
         viewVolProfileBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

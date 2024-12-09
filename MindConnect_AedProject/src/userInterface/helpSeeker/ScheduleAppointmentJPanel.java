@@ -23,7 +23,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author sameersdeshpande
+ * @author manvith
  */
 public class ScheduleAppointmentJPanel extends javax.swing.JPanel {
 
@@ -82,10 +82,12 @@ public class ScheduleAppointmentJPanel extends javax.swing.JPanel {
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 204, 153));
+        setBackground(new java.awt.Color(1, 33, 46));
 
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Patient Name:");
 
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Patient Age:");
 
         txtPAge.addActionListener(new java.awt.event.ActionListener() {
@@ -94,8 +96,10 @@ public class ScheduleAppointmentJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Patient Gender:");
 
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Symtoms:");
 
         txtSymtoms.setColumns(20);
@@ -108,10 +112,13 @@ public class ScheduleAppointmentJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Select Doctor:");
 
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Time Slot");
 
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Select Day:");
 
         cmbDay.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" }));
@@ -128,18 +135,21 @@ public class ScheduleAppointmentJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Previous Treatment History:");
 
         txtAll.setColumns(20);
         txtAll.setRows(5);
         jScrollPane2.setViewportView(txtAll);
 
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Any comments:");
 
         jTextArea3.setColumns(20);
         jTextArea3.setRows(5);
         jScrollPane3.setViewportView(jTextArea3);
 
+        jButton1.setBackground(new java.awt.Color(50, 192, 160));
         jButton1.setText("Book Appointment");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -147,6 +157,7 @@ public class ScheduleAppointmentJPanel extends javax.swing.JPanel {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(17, 180, 205));
         jButton2.setText(">>Back");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

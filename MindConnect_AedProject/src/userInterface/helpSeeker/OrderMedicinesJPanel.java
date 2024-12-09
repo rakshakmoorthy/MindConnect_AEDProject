@@ -17,7 +17,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author sameersdeshpande
+ * @author manvith
  */
 public class OrderMedicinesJPanel extends javax.swing.JPanel {
 
@@ -53,9 +53,10 @@ public class OrderMedicinesJPanel extends javax.swing.JPanel {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 204, 153));
+        setBackground(new java.awt.Color(1, 33, 46));
 
         jLabel1.setFont(new java.awt.Font("Helvetica Neue", 0, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Medicart");
 
         tblTabletCart.setModel(new javax.swing.table.DefaultTableModel(
@@ -71,6 +72,7 @@ public class OrderMedicinesJPanel extends javax.swing.JPanel {
         ));
         jScrollPane3.setViewportView(tblTabletCart);
 
+        jButton2.setBackground(new java.awt.Color(50, 192, 160));
         jButton2.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
         jButton2.setText("Checkout");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -79,6 +81,8 @@ public class OrderMedicinesJPanel extends javax.swing.JPanel {
             }
         });
 
+        jButton3.setBackground(new java.awt.Color(17, 180, 205));
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText(">>Back");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

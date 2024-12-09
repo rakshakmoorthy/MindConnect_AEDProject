@@ -23,7 +23,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author tejageetla
+ * @author manvith
  */
 public class ViewHelpRequestHistory extends javax.swing.JPanel {
     private JPanel userProcessContainer;
@@ -109,7 +109,7 @@ public class ViewHelpRequestHistory extends javax.swing.JPanel {
         manageEnt = new javax.swing.JLabel();
         backJButton = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(153, 204, 0));
+        setBackground(new java.awt.Color(1, 33, 46));
 
         workRequestHistoryTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -130,8 +130,10 @@ public class ViewHelpRequestHistory extends javax.swing.JPanel {
         jScrollPane2.setViewportView(workRequestHistoryTable);
 
         manageEnt.setFont(new java.awt.Font("Malayalam MN", 3, 24)); // NOI18N
+        manageEnt.setForeground(new java.awt.Color(255, 255, 255));
         manageEnt.setText("View History of Help Requests");
 
+        backJButton.setBackground(new java.awt.Color(17, 180, 205));
         backJButton.setText("<< Back");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

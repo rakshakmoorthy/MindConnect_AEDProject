@@ -288,7 +288,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Malayalam MN" size="24" style="3"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Heart Help"/>
+        <Property name="text" type="java.lang.String" value="Mental Help"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="gender">

@@ -16,7 +16,7 @@ public class HospitalEnterprise extends Enterprise{
  
       
      public HospitalEnterprise(String name) {
-        super(name, EnterpriseType.Hospital);
+        super(name, Enterprise.EnterpriseType.Hospital);
     }
 
     @Override

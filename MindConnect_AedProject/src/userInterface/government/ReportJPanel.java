@@ -29,7 +29,7 @@ import org.jfree.data.general.DefaultPieDataset;
 
 /**
  *
- * @author sameersdeshpande
+ * @author rakshakmoorthy
  */
 public class ReportJPanel extends javax.swing.JPanel {
 
@@ -84,15 +84,16 @@ public class ReportJPanel extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(255, 255, 153));
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 153));
+        jPanel1.setBackground(new java.awt.Color(1, 33, 46));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         manageEnt1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        manageEnt1.setForeground(new java.awt.Color(255, 255, 255));
         manageEnt1.setText("Analytics");
         jPanel1.add(manageEnt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, 278, -1));
 
-        jLayeredPane1.setBackground(new java.awt.Color(255, 51, 51));
+        jLayeredPane1.setBackground(new java.awt.Color(17, 180, 205));
         jLayeredPane1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         seniorsWithHeartPrbField.setEditable(false);
@@ -101,6 +102,7 @@ public class ReportJPanel extends javax.swing.JPanel {
         totTransReq1.setFont(new java.awt.Font("Malayalam MN", 3, 18)); // NOI18N
 
         totalSeniorPpl.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        totalSeniorPpl.setForeground(new java.awt.Color(255, 255, 255));
         totalSeniorPpl.setText("Total No of Senior Patients with aged above 60");
 
         senShareInfoField.setEditable(false);
@@ -118,15 +120,19 @@ public class ReportJPanel extends javax.swing.JPanel {
         senWithSensorField.setBackground(new java.awt.Color(255, 255, 255));
 
         totalSeniorPpl1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        totalSeniorPpl1.setText("Total No of Senior Patients with heart issues");
+        totalSeniorPpl1.setForeground(new java.awt.Color(255, 255, 255));
+        totalSeniorPpl1.setText("Total No of Senior Patients with mental  issues");
 
         totalSeniorPpl2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        totalSeniorPpl2.setForeground(new java.awt.Color(255, 255, 255));
         totalSeniorPpl2.setText("Total No of Child Patients with aged  less than 5");
 
         totalSeniorPpl3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        totalSeniorPpl3.setForeground(new java.awt.Color(255, 255, 255));
         totalSeniorPpl3.setText("Total No of Doctors");
 
         totalSeniorPpl4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        totalSeniorPpl4.setForeground(new java.awt.Color(255, 255, 255));
         totalSeniorPpl4.setText("Doctors to Patient ratio");
 
         jLayeredPane1.setLayer(seniorsWithHeartPrbField, javax.swing.JLayeredPane.DEFAULT_LAYER);
@@ -212,7 +218,7 @@ public class ReportJPanel extends javax.swing.JPanel {
 
         jPanel1.add(pieChartDetailedReportPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(1147, 65, -1, -1));
 
-        backJButton.setBackground(new java.awt.Color(102, 102, 255));
+        backJButton.setBackground(new java.awt.Color(17, 180, 205));
         backJButton.setText("<< Back");
         backJButton.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         backJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -222,6 +228,7 @@ public class ReportJPanel extends javax.swing.JPanel {
         });
         jPanel1.add(backJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 559, 93, -1));
 
+        barchartBtn.setBackground(new java.awt.Color(50, 192, 160));
         barchartBtn.setText("View Bar Chart");
         barchartBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
