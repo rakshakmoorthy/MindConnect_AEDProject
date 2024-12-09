@@ -21,7 +21,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author tejageetla
+ * @author manvith
  */
 public class ViewHelpSeekerProfile extends javax.swing.JPanel {
       private JPanel userProcessContainer;
@@ -173,7 +173,7 @@ public class ViewHelpSeekerProfile extends javax.swing.JPanel {
         addressField2.setEnabled(false);
 
         manageEnt1.setFont(new java.awt.Font("Malayalam MN", 3, 24)); // NOI18N
-        manageEnt1.setText("Heart Help");
+        manageEnt1.setText("Mental Help");
 
         gender.setText("Gender:");
 

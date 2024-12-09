@@ -15,7 +15,7 @@ import userInterface.Insurance.InsuranceAdminDashboardJPanel;
 
 /**
  *
- * @author sameersdeshpande
+ * @author manvith
  */
 public class PatientWorkAreaJPanel extends javax.swing.JPanel {
 
@@ -62,8 +62,9 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
         btnBack = new javax.swing.JButton();
         btnNGO = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 153, 102));
+        setBackground(new java.awt.Color(1, 33, 46));
 
+        jButton1.setBackground(new java.awt.Color(50, 192, 160));
         jButton1.setText("Book Appointment");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -71,6 +72,7 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(50, 192, 160));
         jButton2.setText("Medical History");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -78,6 +80,7 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+        jButton3.setBackground(new java.awt.Color(50, 192, 160));
         jButton3.setText("Buy Medicines");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -85,6 +88,7 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+        jButton4.setBackground(new java.awt.Color(50, 192, 160));
         jButton4.setText("My Profile");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -92,6 +96,7 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnInsurance.setBackground(new java.awt.Color(50, 192, 160));
         btnInsurance.setText("Buy Insurance");
         btnInsurance.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -99,6 +104,7 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnBack.setBackground(new java.awt.Color(17, 180, 205));
         btnBack.setText("<Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -106,6 +112,7 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnNGO.setBackground(new java.awt.Color(50, 192, 160));
         btnNGO.setText("NGO Portal");
         btnNGO.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

@@ -13,7 +13,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author sameersdeshpande
+ * @author manvith
  */
 public class PatientProfileJPanel extends javax.swing.JPanel {
 
@@ -66,20 +66,27 @@ public class PatientProfileJPanel extends javax.swing.JPanel {
 
         jLabel7.setText("Ongoing medications");
 
-        setBackground(new java.awt.Color(255, 204, 153));
+        setBackground(new java.awt.Color(1, 33, 46));
 
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Name:");
 
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Gender:");
 
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Age:");
 
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Email");
 
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("State");
 
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Country");
 
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Contact number:");
 
         txtEmail.addActionListener(new java.awt.event.ActionListener() {
@@ -89,8 +96,10 @@ public class PatientProfileJPanel extends javax.swing.JPanel {
         });
 
         jLabel9.setFont(new java.awt.Font("Helvetica Neue", 0, 24)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("My Profile:");
 
+        btnUpdate.setBackground(new java.awt.Color(50, 192, 160));
         btnUpdate.setText("Update");
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -98,7 +107,8 @@ public class PatientProfileJPanel extends javax.swing.JPanel {
             }
         });
 
-        jButton2.setText(">Back");
+        jButton2.setBackground(new java.awt.Color(17, 180, 205));
+        jButton2.setText(">>Back");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -117,6 +127,7 @@ public class PatientProfileJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnSave.setBackground(new java.awt.Color(50, 192, 160));
         btnSave.setText("Save");
         btnSave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

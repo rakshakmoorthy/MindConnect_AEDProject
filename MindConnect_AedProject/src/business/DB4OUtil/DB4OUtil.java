@@ -16,13 +16,9 @@ import java.util.ConcurrentModificationException;
 
 /**
  *
- * @author tejageetla
+ * @author manvith
  */
 public class DB4OUtil {
-    //private static final String FILENAME = System.getProperty("user.dir") + "/DataBank.db4o";  
-    //private static final String FILENAME = "/Users/sameersdeshpande/Working code2/DB40/DataBank8.db4o";
-
-    //private static final String FILENAME = "/Users/sameersdeshpande/hms/Working-code2/DB40/DataBank8.db4o";
     private static final String FILENAME = "/Users/manvithdalli/Downloads/ApplicationDevelopment-main/DB40/DataBank8.db4o";
     private static DB4OUtil dB4OUtil;
 

@@ -13,14 +13,14 @@ import userInterface.helpSeeker.PatientBuyInsuranceJPanel;
 
 /**
  *
- * @author sameersdeshpande
+ * @author rakshakmoorthy
  */
 public class GovtSecJPanel extends javax.swing.JPanel {
 
     /**
      * Creates new form GovtSecJPanel
      */
-           private JPanel userProcessContainer;
+    private JPanel userProcessContainer;
     private UserAccount userAccount; 
     private EcoSystem ecoSystem;
     private Enterprise enterprise;
@@ -48,15 +48,16 @@ public class GovtSecJPanel extends javax.swing.JPanel {
         jButton3 = new javax.swing.JButton();
         btnBack = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 153));
+        setBackground(new java.awt.Color(1, 33, 46));
         setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Government Body");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(25, 32, -1, -1));
 
-        jButton1.setBackground(new java.awt.Color(153, 255, 153));
+        jButton1.setBackground(new java.awt.Color(50, 192, 160));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton1.setText("Manage Schemes");
         jButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -67,13 +68,13 @@ public class GovtSecJPanel extends javax.swing.JPanel {
         });
         add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 126, 139, 93));
 
-        jButton2.setBackground(new java.awt.Color(153, 255, 153));
+        jButton2.setBackground(new java.awt.Color(50, 192, 160));
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton2.setText("Regulatory check");
         jButton2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 225, 139, 93));
 
-        jButton3.setBackground(new java.awt.Color(153, 255, 153));
+        jButton3.setBackground(new java.awt.Color(50, 192, 160));
         jButton3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton3.setText("Report");
         jButton3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -84,7 +85,7 @@ public class GovtSecJPanel extends javax.swing.JPanel {
         });
         add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 330, 139, 99));
 
-        btnBack.setBackground(new java.awt.Color(102, 102, 255));
+        btnBack.setBackground(new java.awt.Color(17, 180, 205));
         btnBack.setText("<Back");
         btnBack.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnBack.addActionListener(new java.awt.event.ActionListener() {

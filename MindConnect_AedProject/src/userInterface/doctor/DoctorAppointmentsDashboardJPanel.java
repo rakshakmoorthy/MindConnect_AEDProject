@@ -17,7 +17,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author rakshakmoorthy
+ * @author shrivatsanaragund
  */
 public class DoctorAppointmentsDashboardJPanel extends javax.swing.JPanel {
 
@@ -55,7 +55,7 @@ public class DoctorAppointmentsDashboardJPanel extends javax.swing.JPanel {
         btnProcess = new javax.swing.JButton();
         btnBack = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(1, 33, 46));
+        setBackground(new java.awt.Color(204, 204, 255));
         setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -84,12 +84,11 @@ public class DoctorAppointmentsDashboardJPanel extends javax.swing.JPanel {
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 103, 788, 227));
 
         jLabel1.setFont(new java.awt.Font("Helvetica Neue", 1, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("My Appointments");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 21, -1, 56));
 
-        btnProcess.setBackground(new java.awt.Color(50, 192, 160));
-        btnProcess.setText("Process >>");
+        btnProcess.setBackground(new java.awt.Color(102, 102, 255));
+        btnProcess.setText("Process>>");
         btnProcess.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnProcess.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -99,7 +98,7 @@ public class DoctorAppointmentsDashboardJPanel extends javax.swing.JPanel {
         add(btnProcess, new org.netbeans.lib.awtextra.AbsoluteConstraints(697, 348, 90, -1));
 
         btnBack.setBackground(new java.awt.Color(102, 102, 255));
-        btnBack.setText("<< Back");
+        btnBack.setText("<Back");
         btnBack.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

@@ -15,7 +15,7 @@ import java.util.ArrayList;
 public class GovernmentEnterprise extends Enterprise{
     
      public GovernmentEnterprise(String name) {
-        super(name, EnterpriseType.Government);
+        super(name, Enterprise.EnterpriseType.Government);
     }
 
     @Override

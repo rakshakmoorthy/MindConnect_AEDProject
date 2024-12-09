@@ -20,7 +20,7 @@ import business.userAccountpkg.UserAccount;
 
 /**
  *
- * @author rrheg
+ * @author manvith
  */
 public class ConfigureASystem {
 

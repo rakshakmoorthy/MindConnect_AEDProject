@@ -6,8 +6,6 @@
 package business.common;
 
 
-import com.sun.jdi.connect.Transport;
-import java.net.Authenticator;
 import java.util.Properties;
 import java.util.Random;
 import javax.mail.Authenticator;

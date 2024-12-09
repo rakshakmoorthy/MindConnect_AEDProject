@@ -18,7 +18,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author tejageetla
+ * @author manvith
  */
 public class ViewVitalSignInfoJPanel extends javax.swing.JPanel {
     private JPanel userProcessContainer;

@@ -26,7 +26,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author tejageetla
+ * @author manvith
  */
 public class RequestVolunteerForHelp extends javax.swing.JPanel {
     
@@ -159,12 +159,16 @@ public class RequestVolunteerForHelp extends javax.swing.JPanel {
         helpjTable = new javax.swing.JTable();
         newHelpRadioBtn = new javax.swing.JRadioButton();
 
+        setBackground(new java.awt.Color(17, 180, 205));
+
         manageEnt2.setFont(new java.awt.Font("Malayalam MN", 3, 24)); // NOI18N
         manageEnt2.setText("Heart Help");
 
         manageEnt1.setFont(new java.awt.Font("Malayalam MN", 3, 14)); // NOI18N
         manageEnt1.setText("Required Help not in the Table:");
 
+        createRequestButton.setBackground(new java.awt.Color(1, 33, 46));
+        createRequestButton.setForeground(new java.awt.Color(255, 255, 255));
         createRequestButton.setText("Create Request");
         createRequestButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -199,13 +203,18 @@ public class RequestVolunteerForHelp extends javax.swing.JPanel {
 
         genderField.setEnabled(false);
 
+        otherHelpPanel.setBackground(new java.awt.Color(1, 33, 46));
+
         helpDetails.setFont(new java.awt.Font("Malayalam MN", 3, 14)); // NOI18N
+        helpDetails.setForeground(new java.awt.Color(255, 255, 255));
         helpDetails.setText(" Enter details about the help needed.");
 
         serviceTypeCombo.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Please Select Amount", "5$", "10$", "15$", "20$" }));
 
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Enter details of help needed: ");
 
+        serviceType.setForeground(new java.awt.Color(255, 255, 255));
         serviceType.setText("Service Type");
 
         javax.swing.GroupLayout otherHelpPanelLayout = new javax.swing.GroupLayout(otherHelpPanel);
@@ -262,6 +271,8 @@ public class RequestVolunteerForHelp extends javax.swing.JPanel {
         manageEnt5.setFont(new java.awt.Font("Malayalam MN", 3, 24)); // NOI18N
         manageEnt5.setText("Request Volunteer For Help:");
 
+        backJButton1.setBackground(new java.awt.Color(1, 33, 46));
+        backJButton1.setForeground(new java.awt.Color(255, 255, 255));
         backJButton1.setText("<< Back");
         backJButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

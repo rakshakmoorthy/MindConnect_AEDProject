@@ -31,7 +31,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author tejageetla
+ * @author manvith
  */
 public class GetHelpFromVolunteerJPanel extends javax.swing.JPanel {
 
@@ -149,7 +149,7 @@ public class GetHelpFromVolunteerJPanel extends javax.swing.JPanel {
         helpDetailsTxtField = new javax.swing.JTextField();
         helpDetails = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 204, 153));
+        setBackground(new java.awt.Color(1, 33, 46));
 
         helpListJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -169,6 +169,7 @@ public class GetHelpFromVolunteerJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(helpListJTable);
 
+        createRequestButton.setBackground(new java.awt.Color(50, 192, 160));
         createRequestButton.setText("Create Request");
         createRequestButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -177,15 +178,19 @@ public class GetHelpFromVolunteerJPanel extends javax.swing.JPanel {
         });
 
         manageEnt4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        manageEnt4.setForeground(new java.awt.Color(255, 255, 255));
         manageEnt4.setText("Select the radio button  ");
 
         manageEnt1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        manageEnt1.setForeground(new java.awt.Color(255, 255, 255));
         manageEnt1.setText("Required Help not in the Table:");
 
         manageEnt2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        manageEnt2.setForeground(new java.awt.Color(255, 255, 255));
         manageEnt2.setText("Request help from NGO");
 
         manageEnt3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        manageEnt3.setForeground(new java.awt.Color(255, 255, 255));
         manageEnt3.setText("Help Requests History:");
 
         workRequestJTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -206,8 +211,10 @@ public class GetHelpFromVolunteerJPanel extends javax.swing.JPanel {
         });
         jScrollPane2.setViewportView(workRequestJTable);
 
+        gender1.setForeground(new java.awt.Color(255, 255, 255));
         gender1.setText("Comments:");
 
+        backJButton.setBackground(new java.awt.Color(17, 180, 205));
         backJButton.setText("<< Back");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -215,6 +222,7 @@ public class GetHelpFromVolunteerJPanel extends javax.swing.JPanel {
             }
         });
 
+        newHelpRadioBtn.setForeground(new java.awt.Color(255, 255, 255));
         newHelpRadioBtn.setText("New Help");
         newHelpRadioBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -222,13 +230,16 @@ public class GetHelpFromVolunteerJPanel extends javax.swing.JPanel {
             }
         });
 
+        serviceType.setForeground(new java.awt.Color(255, 255, 255));
         serviceType.setText("Service Type");
 
         serviceTypeCombo.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Please Select Amount", "5$", "10$", "15$", "20$" }));
 
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Enter details of help needed: ");
 
         helpDetails.setFont(new java.awt.Font("Malayalam MN", 3, 14)); // NOI18N
+        helpDetails.setForeground(new java.awt.Color(255, 255, 255));
         helpDetails.setText(" Enter details about the help needed.");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

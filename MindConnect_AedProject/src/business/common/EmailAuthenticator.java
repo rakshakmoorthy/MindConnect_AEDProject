@@ -6,8 +6,12 @@
 package business.common;
 
 
-import java.net.Authenticator;
-import java.net.PasswordAuthentication;
+
+
+
+import javax.mail.Authenticator;
+import javax.mail.PasswordAuthentication;
+
 import javax.mail.Authenticator;
 import javax.mail.PasswordAuthentication;
 

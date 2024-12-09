@@ -17,7 +17,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author rakshakmoorthy
+ * @author shrivatsanaragund
  */
 public class DoctorPrescribeMedicinesJPanel extends javax.swing.JPanel {
 
@@ -54,7 +54,7 @@ public class DoctorPrescribeMedicinesJPanel extends javax.swing.JPanel {
         spnQuantity = new javax.swing.JSpinner();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(1, 33, 46));
         setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -97,6 +97,7 @@ public class DoctorPrescribeMedicinesJPanel extends javax.swing.JPanel {
         add(spnQuantity, new org.netbeans.lib.awtextra.AbsoluteConstraints(541, 320, 86, 40));
 
         jLabel1.setFont(new java.awt.Font("Helvetica Neue", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Medical Presciption");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 0, -1, 56));
     }// </editor-fold>//GEN-END:initComponents
