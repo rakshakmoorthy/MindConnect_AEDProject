@@ -17,7 +17,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author shrivatsanaragund
+ * @author rakshakmoorthy
  */
 public class DoctorAppointmentsDashboardJPanel extends javax.swing.JPanel {
 
@@ -55,7 +55,7 @@ public class DoctorAppointmentsDashboardJPanel extends javax.swing.JPanel {
         btnProcess = new javax.swing.JButton();
         btnBack = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(1, 33, 46));
         setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -84,6 +84,7 @@ public class DoctorAppointmentsDashboardJPanel extends javax.swing.JPanel {
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 103, 788, 227));
 
         jLabel1.setFont(new java.awt.Font("Helvetica Neue", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("My Appointments");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 21, -1, 56));
 

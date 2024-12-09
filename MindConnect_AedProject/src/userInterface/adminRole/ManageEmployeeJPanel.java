@@ -152,7 +152,7 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
         lastNameJTextField = new javax.swing.JTextField();
         cancelJButton = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(153, 204, 255));
+        setBackground(new java.awt.Color(1, 33, 46));
 
         organizationJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -190,6 +190,7 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Organization");
 
         backJButton.setText("<< Back");
@@ -200,6 +201,7 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
         });
 
         manageOrg.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        manageOrg.setForeground(new java.awt.Color(255, 255, 255));
         manageOrg.setText("Manage Organization Employees");
 
         jLayeredPane1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -213,13 +215,17 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Organization");
 
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("First Name");
 
         manageOrg1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        manageOrg1.setForeground(new java.awt.Color(255, 255, 255));
         manageOrg1.setText("Create Employee Profile");
 
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Last Name");
 
         cancelJButton.setText("Cancel");

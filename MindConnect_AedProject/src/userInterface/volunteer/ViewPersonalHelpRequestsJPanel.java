@@ -24,7 +24,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author tejageetla
+ * @author manvith
  */
 public class ViewPersonalHelpRequestsJPanel extends javax.swing.JPanel {
     

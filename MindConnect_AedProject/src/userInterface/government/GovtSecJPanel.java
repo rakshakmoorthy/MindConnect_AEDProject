@@ -44,7 +44,6 @@ public class GovtSecJPanel extends javax.swing.JPanel {
 
         jLabel1 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         btnBack = new javax.swing.JButton();
 
@@ -55,7 +54,7 @@ public class GovtSecJPanel extends javax.swing.JPanel {
         jLabel1.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Government Body");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(25, 32, -1, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, -1, -1));
 
         jButton1.setBackground(new java.awt.Color(50, 192, 160));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -66,13 +65,7 @@ public class GovtSecJPanel extends javax.swing.JPanel {
                 jButton1ActionPerformed(evt);
             }
         });
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 126, 139, 93));
-
-        jButton2.setBackground(new java.awt.Color(50, 192, 160));
-        jButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton2.setText("Regulatory check");
-        jButton2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 225, 139, 93));
+        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 180, 139, 93));
 
         jButton3.setBackground(new java.awt.Color(50, 192, 160));
         jButton3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -83,7 +76,7 @@ public class GovtSecJPanel extends javax.swing.JPanel {
                 jButton3ActionPerformed(evt);
             }
         });
-        add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 330, 139, 99));
+        add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 310, 139, 99));
 
         btnBack.setBackground(new java.awt.Color(17, 180, 205));
         btnBack.setText("<Back");
@@ -125,7 +118,6 @@ public class GovtSecJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnBack;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables

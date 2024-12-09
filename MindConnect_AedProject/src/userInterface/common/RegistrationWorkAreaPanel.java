@@ -214,18 +214,24 @@ public class RegistrationWorkAreaPanel extends javax.swing.JPanel {
         volNetworkCombo = new javax.swing.JComboBox();
         btnBack = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(153, 204, 255));
+        setBackground(new java.awt.Color(1, 33, 46));
 
+        emailID1.setForeground(new java.awt.Color(255, 255, 255));
         emailID1.setText("Confirm Email Address:");
 
+        town.setForeground(new java.awt.Color(255, 255, 255));
         town.setText("Town/City: ");
 
+        zipCode.setForeground(new java.awt.Color(255, 255, 255));
         zipCode.setText("Zip Code:");
 
+        emailID.setForeground(new java.awt.Color(255, 255, 255));
         emailID.setText("Email Address:");
 
+        firstName.setForeground(new java.awt.Color(255, 255, 255));
         firstName.setText("First Name:");
 
+        phoneNumber.setForeground(new java.awt.Color(255, 255, 255));
         phoneNumber.setText("Phone Number:");
 
         phoneNumberField.addActionListener(new java.awt.event.ActionListener() {
@@ -234,6 +240,7 @@ public class RegistrationWorkAreaPanel extends javax.swing.JPanel {
             }
         });
 
+        createProfileButton.setBackground(new java.awt.Color(50, 192, 160));
         createProfileButton.setText("Register");
         createProfileButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -241,13 +248,17 @@ public class RegistrationWorkAreaPanel extends javax.swing.JPanel {
             }
         });
 
+        LastName.setForeground(new java.awt.Color(255, 255, 255));
         LastName.setText("Last Name:");
 
+        dateOfBirth.setForeground(new java.awt.Color(255, 255, 255));
         dateOfBirth.setText("Date Of Birth (MM/DD/YYYY):");
 
+        address1.setForeground(new java.awt.Color(255, 255, 255));
         address1.setText("Address Line1 : ");
 
         buttonGroup1.add(isPatient);
+        isPatient.setForeground(new java.awt.Color(255, 255, 255));
         isPatient.setText("Are you a patient");
         isPatient.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -256,6 +267,7 @@ public class RegistrationWorkAreaPanel extends javax.swing.JPanel {
         });
 
         buttonGroup1.add(isVolunteer);
+        isVolunteer.setForeground(new java.awt.Color(255, 255, 255));
         isVolunteer.setText("Are you a volunteer");
         isVolunteer.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -264,6 +276,7 @@ public class RegistrationWorkAreaPanel extends javax.swing.JPanel {
         });
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Create User Account:");
 
         passwordField.addActionListener(new java.awt.event.ActionListener() {
@@ -272,12 +285,16 @@ public class RegistrationWorkAreaPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Username");
 
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Password");
 
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Confirm Password");
 
+        helpSeekerNw.setForeground(new java.awt.Color(255, 255, 255));
         helpSeekerNw.setText("Nearest landmark");
 
         helpSeekerNetworkCombo.addActionListener(new java.awt.event.ActionListener() {
@@ -348,8 +365,10 @@ public class RegistrationWorkAreaPanel extends javax.swing.JPanel {
         );
 
         manageEnt.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        manageEnt.setText("Platform: Healthcare ");
+        manageEnt.setForeground(new java.awt.Color(255, 255, 255));
+        manageEnt.setText("Platform: Mental Healthcare ");
 
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Gender:");
 
         genderComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Choose gender", "Female", "Male", "Transgender", "Unknown" }));
@@ -359,6 +378,7 @@ public class RegistrationWorkAreaPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Country:");
 
         countryComboBox.addActionListener(new java.awt.event.ActionListener() {
@@ -367,6 +387,7 @@ public class RegistrationWorkAreaPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("State:");
 
         stateComboBox.addActionListener(new java.awt.event.ActionListener() {
@@ -376,6 +397,7 @@ public class RegistrationWorkAreaPanel extends javax.swing.JPanel {
         });
 
         buttonGroup1.add(isDoctorRadioBtn);
+        isDoctorRadioBtn.setForeground(new java.awt.Color(255, 255, 255));
         isDoctorRadioBtn.setText("Are you a doctor");
         isDoctorRadioBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -383,6 +405,7 @@ public class RegistrationWorkAreaPanel extends javax.swing.JPanel {
             }
         });
 
+        volNetwork.setForeground(new java.awt.Color(255, 255, 255));
         volNetwork.setText("Nearest landmark");
 
         volNetworkCombo.addActionListener(new java.awt.event.ActionListener() {
@@ -391,6 +414,7 @@ public class RegistrationWorkAreaPanel extends javax.swing.JPanel {
             }
         });
 
+        btnBack.setBackground(new java.awt.Color(17, 180, 205));
         btnBack.setText("<Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -465,9 +489,6 @@ public class RegistrationWorkAreaPanel extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(manageEnt, javax.swing.GroupLayout.PREFERRED_SIZE, 296, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
                         .addGap(39, 39, 39)
                         .addComponent(isPatient)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -478,7 +499,10 @@ public class RegistrationWorkAreaPanel extends javax.swing.JPanel {
                         .addGap(16, 16, 16)
                         .addComponent(btnBack)
                         .addGap(297, 297, 297)
-                        .addComponent(createProfileButton, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(createProfileButton, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(manageEnt, javax.swing.GroupLayout.PREFERRED_SIZE, 323, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
