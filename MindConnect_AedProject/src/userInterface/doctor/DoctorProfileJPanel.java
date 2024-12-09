@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author shrivatsanaragund
+ * @author rakshakmoorthy
  */
 public class DoctorProfileJPanel extends javax.swing.JPanel {
 
@@ -75,7 +75,7 @@ public class DoctorProfileJPanel extends javax.swing.JPanel {
         emailID1 = new javax.swing.JLabel();
         emailID2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(50, 192, 160));
         setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 

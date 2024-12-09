@@ -108,7 +108,7 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
         deleteNetwork = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(153, 204, 255));
+        setBackground(new java.awt.Color(1, 33, 46));
 
         networkJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -141,6 +141,7 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
         }
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Networks:");
 
         backJButton.setText("<< Back");
@@ -158,6 +159,7 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
             }
         });
 
+        submitJButton.setBackground(new java.awt.Color(50, 192, 160));
         submitJButton.setText("Add");
         submitJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -173,6 +175,7 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
         });
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Add New Network");
 
         cityComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { " " }));
@@ -183,12 +186,15 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
         });
 
         country.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        country.setForeground(new java.awt.Color(255, 255, 255));
         country.setText("Country: ");
 
         state.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        state.setForeground(new java.awt.Color(255, 255, 255));
         state.setText("State:");
 
         city.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        city.setForeground(new java.awt.Color(255, 255, 255));
         city.setText("City:");
 
         jLayeredPane1.setLayer(countryComboBox, javax.swing.JLayeredPane.DEFAULT_LAYER);
@@ -244,6 +250,7 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
                 .addContainerGap())
         );
 
+        deleteNetwork.setBackground(new java.awt.Color(50, 192, 160));
         deleteNetwork.setText("Delete");
         deleteNetwork.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -252,6 +259,7 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
         });
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Manage Networks:");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

@@ -103,7 +103,7 @@ public class ViewVitalSignInfoJPanel extends javax.swing.JPanel {
         manageEnt1 = new javax.swing.JLabel();
         backJButton = new javax.swing.JButton();
 
-        getAlert2.setText("Get alert from Heart Help:");
+        getAlert2.setText("Get alert from MindConnect:");
 
         getAlert3.setText("Sensor device to track Vital Signs");
 
@@ -131,7 +131,7 @@ public class ViewVitalSignInfoJPanel extends javax.swing.JPanel {
         getAlertJRadioYes1.setEnabled(false);
 
         manageEnt1.setFont(new java.awt.Font("Malayalam MN", 3, 24)); // NOI18N
-        manageEnt1.setText("Heart Help");
+        manageEnt1.setText("Mental Help");
 
         backJButton.setText("<< Back");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
