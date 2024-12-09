@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 import userInterface.doctor.DoctorDashboardJPanel;
 /**
  *
- * @author tejageetla
+ * @author tanvireddy
  */
 public class DoctorRole extends Role{
     

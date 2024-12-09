@@ -14,7 +14,7 @@ import userInterface.government.GovtSecJPanel;
 
 /**
  *
- * @author sameersdeshpande
+ * @author tanvireddy
  */
 
 public class GovtSecRole extends Role{

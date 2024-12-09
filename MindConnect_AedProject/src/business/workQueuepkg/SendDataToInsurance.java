@@ -6,7 +6,7 @@ package business.workQueuepkg;
 
 /**
  *
- * @author shrivatsanaragund
+ * @author manvith
  */
 public class SendDataToInsurance extends WorkRequest {
     
