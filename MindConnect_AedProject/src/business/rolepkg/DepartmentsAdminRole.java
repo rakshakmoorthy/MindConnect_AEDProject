@@ -14,7 +14,7 @@ import userInterface.volunteer.VolunteerWorkAreaJPanel;
 
 /**
  *
- * @author tejageetla
+ * @author tanvireddy
  */
 public class DepartmentsAdminRole extends Role{
     

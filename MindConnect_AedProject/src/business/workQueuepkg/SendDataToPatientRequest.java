@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author shrivatsanaragund
+ * @author manvith
  */
 public class SendDataToPatientRequest extends WorkRequest {
 

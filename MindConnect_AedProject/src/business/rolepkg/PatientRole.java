@@ -14,7 +14,7 @@ import userInterface.helpSeeker.PatientWorkAreaJPanel;
 
 /**
  *
- * @author sameersdeshpande
+ * @author tanvireddy
  */
 
 

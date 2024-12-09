@@ -21,7 +21,7 @@ import userInterface.common.RegistrationWorkAreaPanel;
 
 /**
  *
- * @author tejageetla
+ * @author manvith
  */
 public class MainJFrame extends javax.swing.JFrame {
     

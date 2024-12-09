@@ -14,7 +14,7 @@ import userInterface.adminRole.AdminWorkAreaJPanel;
 
 /**
  *
- * @author tejageetla
+ * @author tanvireddy
  */
 public class AdminRole extends Role{
     

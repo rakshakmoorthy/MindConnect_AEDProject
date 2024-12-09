@@ -7,7 +7,7 @@ package business.workQueuepkg;
 
 /**
  *
- * @author tejageetla
+ * @author manvith
  */
 public class NeedSensorDeviceWorkRequest extends WorkRequest{
     

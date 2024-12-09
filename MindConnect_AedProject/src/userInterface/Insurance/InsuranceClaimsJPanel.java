@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author shrivatsanaragund
+ * @author manvith
  */
 public class InsuranceClaimsJPanel extends javax.swing.JPanel {
 

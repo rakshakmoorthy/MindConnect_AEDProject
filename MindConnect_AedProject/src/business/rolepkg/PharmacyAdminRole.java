@@ -13,7 +13,7 @@ import userInterface.doctor.DoctorWorkAreaJPanel;
 
 /**
  *
- * @author shrivatsanaragund
+ * @author tanvireddy
  */
 public class PharmacyAdminRole extends Role{
     

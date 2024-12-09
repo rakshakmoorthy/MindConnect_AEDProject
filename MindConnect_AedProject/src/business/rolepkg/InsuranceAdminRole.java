@@ -14,7 +14,7 @@ import userInterface.doctor.DoctorWorkAreaJPanel;
 
 /**
  *
- * @author shrivatsanaragund
+ * @author tanvireddy
  */
 public class InsuranceAdminRole extends Role{
     

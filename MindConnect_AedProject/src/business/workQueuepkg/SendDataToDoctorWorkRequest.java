@@ -10,13 +10,12 @@ import java.util.ArrayList;
 
 /**
  *
- * @author tejageetla
+ * @author manvith
  */
 public class SendDataToDoctorWorkRequest extends WorkRequest{
     
     private String sendDataRequestId;
     private static int count = 000;
-    private ArrayList<VitalSign> vitalSignList;
     private String patientName;
     private String day;
     private String timeslot;
@@ -83,7 +82,7 @@ public class SendDataToDoctorWorkRequest extends WorkRequest{
         sb.append(count);
         sendDataRequestId = sb.toString();
         count++;
-        vitalSignList = new ArrayList<>();
+        
     }
     
 
@@ -93,9 +92,7 @@ public class SendDataToDoctorWorkRequest extends WorkRequest{
         return this.sendDataRequestId;       
     }
 
-    public ArrayList<VitalSign> getVitalSignList() {
-        return vitalSignList;
-    }
+    
 
     public String getMedication() {
         return medication;
